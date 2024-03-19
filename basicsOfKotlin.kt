@@ -36,15 +36,24 @@ val kChar : Char = 'a'
 
 var a : Int = readln().toInt()  // converts string to int
 
+// functions in Kotlin
+
+fun makeCoffee(sugarCount : Int){
+}
+
+
+var result = addition(1,2)
+
+fun addition(sum1 : Int,sum2:Int) :Double{
+    return sum1+sum2.toDouble()
+}
 
 // Condition Statement
+if(age >=18 && age <= 60){      //  are same as       if(age in 18..60){
+}else{
+    println("eligible")
+}
 
-
-// if(age >=18 && age <= 60){        are same as       if(age in 18..60){
-// }else{
-//     println("eligible")
-// }
-/
 
 
 
