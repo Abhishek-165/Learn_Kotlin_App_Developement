@@ -44,7 +44,7 @@ fun makeCoffee(sugarCount : Int){
 
 var result = addition(1,2)
 
-fun addition(sum1 : Int,sum2:Int) :Double{
+fun addition(sum1 : Int,sum2:Int) : Double{
     return sum1+sum2.toDouble()
 }
 
@@ -54,6 +54,20 @@ if(age >=18 && age <= 60){      //  are same as       if(age in 18..60){
     println("eligible")
 }
 
+
+//  List in kotlin
+
+/*
+1. Immutable list data can be modified
+var immutableList = listOf("Ram","Processor","Computer")
+
+2. mutable List, Data can't be modified
+var mutableList = mutuableListOf("Ram","Processor","Computer")
+
+
+for (item in 0 until mutableList.size){
+}
+ */
 
 
 
